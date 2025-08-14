@@ -1,0 +1,64 @@
+/* Background Gradient */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* Center Content */
+.wrapper {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Box Styling */
+#colorBox {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  line-height: 200px;
+  font-size: 18px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+/* Hover effect on box */
+#colorBox:hover {
+  transform: scale(1.05);
+}
+
+/* Professional Button */
+#changeBtn {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Animation */
+#changeBtn:hover {
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  transform: translateY(-3px);
+}
+
+/* Click Effect */
+#changeBtn:active {
+  transform: translateY(0px);
+}
